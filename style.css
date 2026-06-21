@@ -61,7 +61,6 @@ button:hover {
     box-shadow: 0 8px 20px rgba(255, 71, 87, 0.6);
 }
 
-/* Custom Modal Styles */
 .modal-overlay {
     position: fixed;
     top: 0;
