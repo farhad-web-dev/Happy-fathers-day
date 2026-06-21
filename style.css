@@ -6,7 +6,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .card {
@@ -61,6 +61,7 @@ button:hover {
     box-shadow: 0 8px 20px rgba(255, 71, 87, 0.6);
 }
 
+/* Custom Modal Styles */
 .modal-overlay {
     position: fixed;
     top: 0;
