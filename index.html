@@ -11,12 +11,25 @@
         <div class="heart-icon">❤️</div>
         <h1>Happy Father's Day!</h1>
         <p>Thank you for being my strength, my mentor, and my biggest supporter. I am so lucky to have you as my Dad.</p>
-        <button onclick="showSurprise()">Click for a Surprise! 🎉</button>
+        <button onclick="toggleModal(true)">Click for a Surprise! 🎉</button>
+    </div>
+
+    <div id="customModal" class="modal-overlay">
+        <div class="modal-content">
+            <h2>Best Dad Ever! 👑</h2>
+            <p>Aap duniya ke sabse best Papa hain! Thank you for everything you do for us. I love you so much! ❤️</p>
+            <button class="close-btn" onclick="toggleModal(false)">Close</button>
+        </div>
     </div>
 
     <script>
-        function showSurprise() {
-            alert("Aap duniya ke sabse best Papa hain! Thank you for everything. I love you! ❤️");
+        function toggleModal(show) {
+            const modal = document.getElementById('customModal');
+            if (show) {
+                modal.classList.add('active');
+            } else {
+                modal.classList.remove('active');
+            }
         }
     </script>
 </body>
